@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>টেলিগ্রাম চ্যানেল</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #ff0000; /* টেক্সট কালার লাল */
+        }
+        .container {
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            width: 110px;  /* লোগোর প্রস্থ */
+            height: 110px; /* লোগোর উচ্চতা */
+            margin: 20px auto;
+            border-radius: 50%;
+            text-align: center;
+        }
+        .new-title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px; /* লোগোর নিচে কিছু মার্জিন */
+            color: #ff0000; /* টেক্সট কালার লাল */
+        }
+        .phone-box, .limit-box {
+            background-color: #f7f7f7;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        .button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 48%; /* বাটনের প্রস্থ সমান রাখতে */
+        }
+        .button:hover {
+            background-color: #444;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-between; /* দুইটি বাটনকে দুই পাশে রাখতে */
+            margin-top: 10px;
+        }
+        .color-effect {
+            background-image: linear-gradient(to right, #ff69b4, #ffa07a);
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://i.ibb.co.com/VmZGsvJ/20230918-123538.jpg" alt="Logo" width="110" height="110"> <!-- লোগোর সাইজ আপডেট -->
+        </div>
+        
+        <h2 class="new-title">
+<span class="letter" style="color: red;">W</span>  
+<span class="letter" style="color: red;">A</span>   
+<span class="letter" style="color: red;">S</span>
+<span class="letter" style="color: red;">I</span>   	
+<span class="letter" style="color: red;">M</span>
+<span class="letter" style="color: blue;">.</span>
+<span class="letter" style="color: blue;">S</span>
+<span class="letter" style="color: orange;">M</span>
+<span class="letter" style="color: read;">S</span>
+<span class="letter" style="color: green;"> . </span>
+<span class="letter" style="color: blue;">B</span>
+<span class="letter" style="color: purple;">O</span>
+<span class="letter" style="color: red;">M</span>
+<span class="letter" style="color: orange;">B</span>
+<span class="letter" style="color: blue;">E</span>
+<span class="letter" style="color: green;">R</span>
+</h2>
+
+        <div class="phone-box">
+            <label for="phone">𝐍𝐔𝐌𝐁𝐄𝐑:</label>
+            <input type="number" id="phone" name="phone" required>
+        </div>
+        <div class="limit-box">
+            <label for="hours">𝐀𝐌𝐎𝐔𝐍𝐓:</label>
+            <input type="number" id="hours" name="hours" required>
+        </div>
+        
+        <div class="button-container">
+            <button class="button color-effect" onclick="sendSMS()">𝗦𝗘𝗡𝗗 𝗦𝗠𝗦</button>
+            <button class="button" onclick="window.open('https://www.youtube.com/@wasim-360')">𝗬𝗢𝗨𝗧𝗨𝗕</button> <!-- টেলিগ্রাম বাটন -->
+        </div>
+
+        <p style="color: blue; text-align: center;">𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃 𝐁𝐘 𝐖𝐀𝐒𝐈𝐌-𝟑𝟔𝟎</p>
+    </div>
+
+    <script>
+        function sendSMS() {
+            var phone = document.getElementById("phone").value;
+            var hours = document.getElementById("hours").value;
+            var apiUrl = "http://168.119.39.20/~rnfmodsc/brooo/time-boom.php";
+            var params = "phone=" + phone + "&hours=" + hours;
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", apiUrl + "?" + params, true);
+            xhr.send();
+        }
+    </script>
+</body>
+</html>
+``
+<script>
+        function sendSMS() {
+            var phone = document.getElementById("phone").value;
+            var hours = document.getElementById("hours").value;
+            var apiUrl = "http://168.119.39.20/~rnfmodsc/brooo/time-boom.php";
+            var params = "phone=" + phone + "&hours=" + hours;
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", apiUrl + "?" + params, true);
+            xhr.send();
+        }
+    </script>
+</body>
+</html>
+
